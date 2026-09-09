@@ -1,0 +1,37 @@
+{
+  "name": "storyboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InexNull/storyboard-infra.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/InexNull/storyboard-infra/issues"
+  },
+  "homepage": "https://github.com/InexNull/storyboard-infra#readme",
+  "workspaces": [
+    "packages/core",
+    "packages/infra",
+    "packages/front"
+  ],
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30",
+    "@swc/jest": "^0.2.39",
+    "typescript": "^6.0.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "fsevents@2.3.3": true,
+    "unrs-resolver@1.12.2": true,
+    "@parcel/watcher@2.6.0": true,
+    "@swc/core@1.16.2": true
+  }
+}
