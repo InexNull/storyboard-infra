@@ -17,9 +17,8 @@
   },
   "homepage": "https://github.com/InexNull/storyboard-infra#readme",
   "workspaces": [
-    "packages/core",
-    "packages/infra",
-    "packages/front"
+    "packages/*",
+    "apps/*"
   ],
   "devDependencies": {
     "@types/jest": "^30.0.0",
