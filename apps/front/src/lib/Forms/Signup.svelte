@@ -1,6 +1,6 @@
 <script lang="ts">
     import './form.css'
-    import type { LoginRequest, SignUpRequest } from './types';
+    import type { SignUpRequest } from './types';
 
     interface Props {
         onsubmit: (credentials: SignUpRequest) => void;
