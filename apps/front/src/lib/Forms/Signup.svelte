@@ -30,7 +30,6 @@
         bind:value={email}
         id="email"
         name="email"
-        placeholder="Email"
         autocomplete="username"
     />
     <label for="username">Username:</label>
@@ -39,7 +38,6 @@
         bind:value={username}
         id="username"
         name="username"
-        placeholder="Username"
         autocomplete="username"
     />
     <label for="password">Password:</label>
@@ -48,7 +46,6 @@
         bind:value={password}
         id="password"
         name="password"
-        placeholder="Password"
         autocomplete="new-password"
     />
     <button>Sign up</button>
