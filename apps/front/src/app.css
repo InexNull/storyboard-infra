@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+
+    --bg-primary: #ffffff;
+    --bg-secondary: #f5f5f5;
+    --bg-card: #e9e7dc;
+
+    --text-primary: #080808;
+    --accent-primary: #4a9eff;
+    --accent-secondary: #d6793f;
+
+    --input-background: #ffffff;
+
+    --border-color: #8f8f8f;
+}
+
+body.theme-dark {
+    --bg-primary: #080808;
+    --bg-secondary: #141414;
+    --bg-card: #1e1e1e;
+
+    --text-primary: #e0e0e0;
+    --accent-primary: #4a9eff;
+    --accent-secondary: #d6793f;
+
+    --input-background: #1e1e1e;
+
+    --border-color: #787878;
+}
+
+/* font size no longer overrided by default */
+button, input, select, textarea {
+    font: inherit;
+    color: inherit;
+}
