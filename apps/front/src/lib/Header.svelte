@@ -1,3 +1,15 @@
+<script>
+    import { goto } from "$app/navigation";
+</script>
+
+<header>
+    Website Name
+    <nav>
+        <a href="/login" onclick={() => goto("/login")}>Log in</a>
+        <a href="/signup" onclick={() => goto("/signup")}>Sign up</a>
+    </nav>
+</header>
+
 <style>
     header {
         font-size: 24px;
@@ -32,15 +44,3 @@
         text-decoration: underline;
     }
 </style>
-
-<script>
-    import { goto } from '$app/navigation';
-</script>
-
-<header>
-    Website Name
-    <nav>
-        <a href="/login" onclick={() => goto("/login")}>Log in</a>
-        <a href="/signup" onclick={() => goto("/signup")}>Sign up</a>
-    </nav>
-</header>

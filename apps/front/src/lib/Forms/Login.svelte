@@ -1,13 +1,13 @@
 <script lang="ts">
-    import './form.css'
-    import type { LoginRequest } from './types';
+    import "./form.css";
+    import type { LoginRequest } from "./types";
 
     interface Props {
         onsubmit: (credentials: LoginRequest) => void;
     }
 
-    let username = $state('');
-    let password = $state('');
+    let username = $state("");
+    let password = $state("");
 
     let { onsubmit }: Props = $props();
 
