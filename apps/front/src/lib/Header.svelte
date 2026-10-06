@@ -32,7 +32,8 @@
         border: none;
         padding: 8px 8px;
         margin: 12px 0;
-        border-left: 1px solid var(--accent-primary);
+        border: 1px solid transparent;
+        border-left-color: var(--accent-primary);
         background-color: transparent;
         color: var(--text-color);
         text-decoration: none;
@@ -42,5 +43,7 @@
         border-color: var(--accent-primary);
         background-color: var(--bg-card);
         text-decoration: underline;
+        border-color: var(--accent-primary);
+        border-radius: 4px;
     }
 </style>

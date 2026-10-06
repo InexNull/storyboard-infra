@@ -20,7 +20,7 @@ input {
     border-radius: 8px;
     border-style: solid;
     font-size: 20px;
-    padding: 8px 4px;
+    padding: 8px 6px;
 }
 
 input:focus {
