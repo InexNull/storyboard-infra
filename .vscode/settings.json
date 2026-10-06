@@ -1,0 +1,6 @@
+{
+  "svelte.plugin.css.globals": "apps/front/src/app.css",
+  "[svelte]": {
+     "editor.defaultFormatter": "svelte.svelte-vscode"
+  }
+}

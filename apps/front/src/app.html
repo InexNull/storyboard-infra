@@ -6,7 +6,15 @@
 		<meta name="text-scale" content="scale" />
 		%sveltekit.head%
 	</head>
-	<body class="theme-dark" data-sveltekit-preload-data="hover">
+	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
+	<script>
+		const stored = localStorage.getItem('data-theme');
+		const theme =
+		    typeof stored === "string" ? stored :
+			    window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
+		
+		document.documentElement.dataset.theme = theme;
+	</script>
 </html>

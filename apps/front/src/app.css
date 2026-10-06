@@ -7,7 +7,10 @@ body {
     font-family: sans-serif;
     background-color: var(--bg-primary);
     color: var(--text-primary);
+}
 
+/* Light theme */
+:root {
     --bg-primary: #ffffff;
     --bg-secondary: #f5f5f5;
     --bg-card: #e9e7dc;
@@ -21,7 +24,8 @@ body {
     --border-color: #8f8f8f;
 }
 
-body.theme-dark {
+/* Dark theme */
+[data-theme="dark"] {
     --bg-primary: #080808;
     --bg-secondary: #141414;
     --bg-card: #1e1e1e;

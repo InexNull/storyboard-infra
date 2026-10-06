@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 import * as cdk from 'aws-cdk-lib/core';
-import { InfraStack } from '../lib/infra-stack';
+import { UserTableStack, UserTableStackProps } from '../lib/UserTableStack';
+
+// https://github.com/InexNull/storywebber-cdk/blob/main/infra/bin/infra.ts
 
 const app = new cdk.App();
-new InfraStack(app, 'InfraStack', {
+new InfraStack(app, 'DevStoryboardStack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */
